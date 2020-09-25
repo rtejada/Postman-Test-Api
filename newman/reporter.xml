@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="EJERCICIOS-PRACTICOS" tests="5" time="2.464">
+  <testsuite name="PredConcello-Acoruña" id="6bbc03f5-deef-4141-b6e9-4faf1ad35a9f" timestamp="2020-08-29T15:58:19.160Z" tests="10" failures="0" errors="0" time="0.300">
+    <testcase name="Codigo de Respuesta Correcta" time="0.300" classname="EjerciciosPracticos"/>
+    <testcase name="idConcello corresponde al ID pasado por parámetro" time="0.300" classname="EjerciciosPracticos"/>
+    <testcase name="Respuesta contiene las predicciones diarias" time="0.300" classname="EjerciciosPracticos"/>
+    <testcase name="el nombre del municipio es correcto" time="0.300" classname="EjerciciosPracticos"/>
+    <testcase name="Campo ceo contiene 3 subcampos" time="0.300" classname="EjerciciosPracticos"/>
+    <testcase name="Campo dataPredicion tiene la fecha de hoy" time="0.300" classname="EjerciciosPracticos"/>
+    <testcase name="Campo nivelAviso es numérico" time="0.300" classname="EjerciciosPracticos"/>
+    <testcase name="Campo pchoiva existe con sus 3 subcampos" time="0.300" classname="EjerciciosPracticos"/>
+    <testcase name="Campo tMax, tMin, uvMax son numéricos" time="0.300" classname="EjerciciosPracticos"/>
+    <testcase name="Campo vento tiene 3 subcampos" time="0.300" classname="EjerciciosPracticos"/>
+  </testsuite>
+  <testsuite name="PredConcello-Moaña" id="bde1e2ec-b536-4ef6-b232-652a2514bee5" timestamp="2020-08-29T15:58:19.160Z" tests="7" failures="0" errors="0" time="0.256">
+    <testcase name="Codigo de Respuesta Correcta" time="0.256" classname="EjerciciosPracticos"/>
+    <testcase name="idConcello corresponde al ID pasado por parámetro" time="0.256" classname="EjerciciosPracticos"/>
+    <testcase name="Respuesta contiene las predicciones diarias" time="0.256" classname="EjerciciosPracticos"/>
+    <testcase name="el nombre del municipio es correcto" time="0.256" classname="EjerciciosPracticos"/>
+    <testcase name="Campo dataPredicion tiene la fecha de hoy" time="0.256" classname="EjerciciosPracticos"/>
+    <testcase name="Campo nivelAviso es numérico" time="0.256" classname="EjerciciosPracticos"/>
+    <testcase name="Campo pchoiva existe con sus 3 subcampos" time="0.256" classname="EjerciciosPracticos"/>
+  </testsuite>
+  <testsuite name="Api_Publico_GET" id="ee5b4ec1-6ea3-41b4-a972-63a7d4521bc4" timestamp="2020-08-29T15:58:19.160Z" tests="0" failures="0" errors="0" time="1.723"/>
+  <testsuite name="Casinos_Euskadi_Json" id="d26a8bc6-3bb5-452c-b588-f7a91bccb663" timestamp="2020-08-29T15:58:19.160Z" tests="2" failures="0" errors="0" time="0.163">
+    <testcase name="El código de respuesta es 200" time="0.163" classname="EjerciciosPracticos"/>
+    <testcase name="Contiene el elemento Bilbao" time="0.163" classname="EjerciciosPracticos"/>
+  </testsuite>
+  <testsuite name="Casinos_Euskadi_Geoson" id="9d031042-deb3-4df1-af7b-402b02657aac" timestamp="2020-08-29T15:58:19.160Z" tests="6" failures="0" errors="0" time="0.022">
+    <testcase name="El código de respuesta es 200" time="0.022" classname="EjerciciosPracticos"/>
+    <testcase name="contiene el elemento name con el valor: &quot;Casinos de Euskadi&quot;." time="0.022" classname="EjerciciosPracticos"/>
+    <testcase name="contiene el elemento features.&quot;." time="0.022" classname="EjerciciosPracticos"/>
+    <testcase name="2 Casinos Encontrados: Kursaal y Bilbao" time="0.022" classname="EjerciciosPracticos"/>
+    <testcase name="Resultados (nombre, localidad, teléfono, código postal), Casino Kursaal, Son Correctos)" time="0.022" classname="EjerciciosPracticos"/>
+    <testcase name="Resultados (nombre, localidad, teléfono, código postal), Gran Casino Bilbao, Son Correctos)" time="0.022" classname="EjerciciosPracticos"/>
+  </testsuite>
+</testsuites>
